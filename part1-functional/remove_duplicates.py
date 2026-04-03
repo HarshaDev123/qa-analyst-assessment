@@ -8,7 +8,6 @@ Approach:
     same output for the same input every time, with no side effects.
 """
 
-from functools import reduce
 
 
 def remove_duplicates(items: list) -> list:
