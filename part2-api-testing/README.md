@@ -29,3 +29,7 @@ test_api.py::TestCreatePost::test_create_post_with_empty_body      PASSED
 test_api.py::TestNotFound::test_nonexistent_user_returns_404       PASSED
 test_api.py::TestNotFound::test_nonexistent_user_returns_empty_body PASSED
 test_api.py::TestNotFound::test_nonexistent_post_returns_404       PASSED
+
+## Note
+The test suite follows the assignment prompt for missing-resource behavior. Because JSONPlaceholder is a public fake API, missing-resource responses may vary at runtime.
+
