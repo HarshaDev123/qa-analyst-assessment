@@ -2,8 +2,8 @@
 Part 1: Functional Programming - Remove Duplicates
 
 Approach:
-    Uses Python's functools.reduce to iterate through the list and accumulate
-    unique elements while preserving the original order of first occurrences.
+   Uses Python's built-in filter() to iterate through the input list and keep
+    only the first occurrence of each element.
     This is a pure function — it does not modify the input and produces the
     same output for the same input every time, with no side effects.
 """
