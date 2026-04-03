@@ -11,7 +11,6 @@ Test cases:
 """
 
 import requests
-import pytest
 
 BASE_URL = "https://jsonplaceholder.typicode.com"
 
