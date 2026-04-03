@@ -18,13 +18,16 @@ qa-analyst-assessment/
 
 ## Quick Start
 
-# Part 1 — Functional Programming
+**Part 1 — Functional Programming**
+```bash
 python part1-functional/remove_duplicates.py
+```
 
-# Part 2 — API Testing
+**Part 2 — API Testing**
+```bash
 pip install -r part2-api-testing/requirements.txt
 pytest part2-api-testing/test_api.py -v
-
+```
 ## Highlights
 
 - **Part 1:** Demonstrates pure functions, immutability, and higher-order functions (filter) with 7 test cases including edge cases.
